@@ -21,8 +21,8 @@
 	</Social>
 
 	<!-- DexScreener (PUTIH) -->
-	<Social tip="DexScreener" link="">
-		<img src="/dexscreener.svg" alt="DexScreener" class="icon icon-img" />
+	<Social tip="Pumpfun" link="">
+		<img src="/dexscreener.svg" alt="Pumpfun" class="icon icon-img" />
 	</Social>
 
 </div>
