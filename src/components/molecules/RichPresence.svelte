@@ -7,7 +7,7 @@
 
 	let activity = `${user.username}`,
 		details = 'online',
-		activityImage = 'default.webp',
+		activityImage = 'default.png',
 		pulse = 30000,
 		activityNumber = 0,
 		state: string,
@@ -130,7 +130,7 @@
 						activity = `@${user.username}`;
 						details = data.discord_status.charAt(0).toUpperCase() + data.discord_status.slice(1);
 						details = details === 'Dnd' ? 'Do Not Disturb' : details;
-						activityImage = 'default.webp';
+						activityImage = 'default.png';
 						smallImage = '';
 						cancelAnimationFrame(currentRequestAnimationFrame);
 						tick();
@@ -199,11 +199,13 @@
 
 	.big {
 		height: 135px;
-		width: 135px;
-		border-radius: 20px;
-		display: relative;
+		width: auto;
+		max-width: 300px;
+		border-radius: 0;
+		display: block;
 		user-select: none;
 		transition: all 0.3s var(--bezier-one);
+		object-fit: contain;
 	}
 
 	.small {

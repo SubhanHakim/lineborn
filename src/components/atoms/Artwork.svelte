@@ -36,9 +36,9 @@
 
 <svelte:head>
 	{#if clicked}
-		<title>echotrame{name}</title>
+		<title>lineborn {name}</title>
 	{:else}
-		<title>echotrame</title>
+		<title>lineborn</title>
 	{/if}
 </svelte:head>
 

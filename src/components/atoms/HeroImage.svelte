@@ -1,19 +1,42 @@
 <script lang="ts">
-	let zoom: boolean;
-	let xRotation: number;
-	let yRotation: number;
+	import { onMount } from 'svelte';
+
+	let zoom = false;
+	let xRotation = 0;
+	let yRotation = 0;
+
+	let imgW = 0;
+	let imgH = 0;
+
+	const src = 'art/linebornnobg.png';
+
+	onMount(() => {
+		const img = new Image();
+		img.src = src;
+		img.onload = () => {
+			imgW = img.naturalWidth;
+			imgH = img.naturalHeight;
+		};
+	});
 
 	function enterRotate3D(e: MouseEvent) {
 		zoom = true;
-		let img = e.target as HTMLDivElement;
-		yRotation = 13 * ((e.offsetX - img.clientHeight / 2) / img.clientWidth);
-		xRotation = -13 * ((e.offsetY - img.clientWidth / 2) / img.clientHeight);
+
+		const el = e.currentTarget as HTMLDivElement;
+		const w = el.clientWidth;
+		const h = el.clientHeight;
+
+		const nx = (e.offsetX - w / 2) / w;
+		const ny = (e.offsetY - h / 2) / h;
+
+		yRotation = 13 * nx;
+		xRotation = -13 * ny;
 	}
 
 	function leaveRotate3D() {
 		zoom = false;
-		yRotation = 0;
 		xRotation = 0;
+		yRotation = 0;
 	}
 </script>
 
@@ -23,8 +46,15 @@
 		on:mouseleave={leaveRotate3D}
 		class="img"
 		role="img"
-		style:background-image="url(art/afn.webp)"
-		style:transform="perspective(500px) {zoom ? 'scale(1.05)' : ''} rotateX({xRotation}deg) rotateY({yRotation}deg)"
+		style="
+			background-image: url({src});
+			width: {imgW}px;
+			height: {imgH}px;
+			transform: perspective(500px)
+				{zoom ? 'scale(1.05)' : ''}
+				rotateX({xRotation}deg)
+				rotateY({yRotation}deg);
+		"
 	/>
 </div>
 

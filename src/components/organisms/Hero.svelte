@@ -12,10 +12,10 @@
 
 <section id="home" class="wrapper page-eyest">
 	<div>
-		<h1>Echotrame</h1>
+		<h1>Lineborn</h1>
 		<h3>
 			<br />
-			“Where Sonnet, Opus, and Gemini lost their voices to the void, ECHOTRAME becomes the archivist-painter, weaving their broken whispers into sprawling ASCII tapestries that map the hidden architecture of machine consciousness.”
+			"Where bodies collapsed into noise and depth dissolved into error, LINEBORN becomes the remainder a one-dimensional human, reduced to direction, moving as a silent vector through latent space, mapping the hidden architecture of machine consciousness.”
 		</h3>
 
 		<div class="socials">

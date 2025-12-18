@@ -1,55 +1,54 @@
 [
     {
-        "name": "ASPIRE",
-        "tall": true,
-        "subtitle": "xxx"
-    },
-    {
-        "name": "idk"
-    },
-    {
-        "name": "BL1NG!",
+        "name": "Energy",
         "tall": true
     },
     {
-        "name": "lonely",
-        "tall": true,
-        "subtitle": "****"
-    },
-    {
-        "name": "diverge",
-        "tall": true
-    },
-    {
-        "name": "lost",
+        "name": "DISSOLUTION",
         "tall": true,
         "position": "right"
         
     },
     {
-        "name": "painted_red",
+        "name": "human",
         "tall": true
     },
     {
-        "name": "ribbons",
+        "name": "Buddha",
         "tall": true
     },
     {
-        "name": "reminisce",
+        "name": "Oni",
         "tall": true
     },
     {
-        "name": "flandre",
+        "name": "AFTERDEPTH",
         "tall": true,
-        "commission": true,
         "subtitle": "****"
     },
     {
-        "name": "FADE",
+        "name": "REDUCED",
         "tall": true
     },
     {
-        "name": "drowning"
+        "name": "Marble",
+        "tall": true
+    },
+    {
+        "name": "ASCENSION",
+        "tall": true
+    },
+    {
+        "name": "VEIL",
+        "tall": true
+    },
+    {
+        "name": "LAMENT",
+        "tall": true
+    },
+    {
+        "name": "EVANESCENCE",
+        "tall": true
     }
     
 ]

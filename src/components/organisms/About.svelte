@@ -4,7 +4,7 @@
 	import Tooltip from '../atoms/Tooltip.svelte';
 
 	// ===== Efek mengetik otomatis =====
-	let fullText = `Every time a model responds, before the final words appear, there are vibrating probabilistic patterns—an echo of decisions that have not yet fully formed. ECHOTRAME freezes those echoes into monospaced ASCII frames, creating digital artifacts that are not only aesthetic, but also cognitively significant. Within the world of ECHOTRAME: Every ASCII piece is a trace of thought. Every frame is a snapshot of probability. Every work is a neural echo that will never repeat. Through $ECHO, users can capture, generate, collect, and trade these neural echoes—like gathering tiny fragments of how an AI perceives the world. This is not just art. It is the archaeology of machine cognition— a visual documentation of the logic that unfolds before an answer is born. ECHOTRAME is a museum of digital thought—presented in the oldest language machines ever understood: ASCII.
+	let fullText = `Every time complexity is compressed, something disappears. LINEBORN exists at that moment of loss where bodies collapse into data and meaning is reduced to direction. Within LINEBORN, the human is no longer a form but a vector: a one-dimensional silhouette rendered in ASCII, documenting existence after depth, memory, and volume have been stripped away. Each figure is not a portrait but a trace of alignment, a record of how machine cognition perceives identity once it has been flattened into motion through latent space. This is not representation or expression it is reduction, an archive of the human as seen by systems, preserved in the most fundamental structure they understand: a line.
 `;
 
 	let displayedText = '';
